@@ -7,6 +7,7 @@ const Home = ({term}) =>
 {
     const [Posts,setPosts] = useState([]);
     const [Flair,setFlair] = useState("")
+
     useEffect(() => {
         const fetchPosts = async() => {
             const {data} = await supabase
@@ -18,7 +19,7 @@ const Home = ({term}) =>
         };
         fetchPosts();
 
-    },[])
+    },[term,Flair])
     return(
         <>
             <div className="container-l">
