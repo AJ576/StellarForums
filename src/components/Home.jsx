@@ -18,7 +18,7 @@ const Home = ({term}) =>
         };
         fetchPosts();
 
-    })
+    },[])
     return(
         <>
             <div className="container-l">
