@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: #F0EB8D;
+  color-scheme: dark;
+  color: #FFC23C;
   background-color:#2D2727;
 
   font-synthesis: none;
@@ -45,6 +45,7 @@ button {
   cursor: pointer;
   transition: border-color 0.5s;
   transition: background-color 0.5s;
+  color: antiquewhite;
 }
 button:hover {
   border-color: #646cff;
@@ -58,8 +59,17 @@ input
 {
   font-size: 1.9em;
   font-family:monospace;
+  background-color:#2D2727;
+  border: 5px solid  #FFC23C;
+  border-radius: 5px;
+  color: antiquewhite;
 }
 textarea
 {
   font-size: 1.9em;
+  background-color: #646cff;
+  background-color:#2D2727;
+  border: 5px solid  #FFC23C;
+  border-radius: 5px;
+  color: antiquewhite;
 }
