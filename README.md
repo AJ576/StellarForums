@@ -56,6 +56,7 @@ Describe any challenges encountered while building the app.
 - Deploying the  on netlify (https://stellarforums.netlify.app/)
 - Fixing a routing issue that caused the pages on the deployed app to not load.
 
+Deployed version - https://stellarforums.netlify.app/
 
 ## License
 
